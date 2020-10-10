@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude vs. Max. Temperature</title>
+  <title>Latitude vs. Humidity</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   
@@ -40,21 +40,54 @@
       </nav>
     
         <h1 class="headers"> 
-            Latitude vs. Temperature
+            Comparison: Latitude vs. X
         </h1>
-        
-        <img class=main_image src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature">
-            
-        <p class="paragraph">
-          This graph displays a correlation between
-          temperature and latitude.  The temperature
-          increases the closer one gets to the equator
-          (which is zero degrees latitude).  Temperature
-          comparison between the northern vs. southern
-          hemisphere will depend on the given time of year. 
-        </p>
-        <br>
 
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                      <h2 class="headers"> 
+                          vs. Temperature
+                      </h2>
+                        <a href="temp.html">
+                        <img class=main_image src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature">
+                        </a>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                        <h2 class="headers"> 
+                            vs. Humidity
+                        </h2>
+                          <a href="humid.html">
+                          <img class=main_image src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+                          </a>
+                  </div>
+              </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+              <div class="col-lg-6">
+                      <h2 class="headers"> 
+                          vs. Cloudiness
+                      </h2>
+                        <a href="cloud.html">
+                        <img class=main_image src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
+                        </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-6">
+                        <h2 class="headers"> 
+                            vs. Wind Speed
+                        </h2>
+                          <a href="wind.html">
+                          <img class=main_image src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
+                          </a>
+                  </div>
+              </div>
+        </div>
 </body>
-
 </html>
