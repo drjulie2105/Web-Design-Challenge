@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Weather Data</title>
+  <title>Latitude vs. Max. Temperature</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   
@@ -25,7 +25,7 @@
               <a class="nav-link" href="#">Data</a>
             </li>
             <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
+              <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
               <div class="dropdown-menu">
                 <a class="dropdown-item" href="temp.html">Temperature</a>
                 <a class="dropdown-item" href="humid.html">Humidity</a>
@@ -38,56 +38,22 @@
           </ul>
         </div>
       </nav>
-
- 
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-8">
-                <h1 class="headers"> 
-                    Summary: Latitude vs. X
-                </h1>
+    
+        <h1 class="headers"> 
+            Latitude vs. Temperature
+        </h1>
         <section>
         <img class=main_image src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature">
             
         <p class="paragraph">
-          The purpose of this project was to analyze weather changes as
-          we get closer to the equator.  Data was extracted from the 
-          OpenWeatherMap API to obtain a dataset of over 500 cities around
-          the world.
+          This graph displays a correlation between
+          temperature and latitude.  The temperature
+          increases the closer one gets to the equator
+          (which is zero degrees latitude).  Temperature
+          comparison between the northern vs. southern
+          hemisphere will depend on the given time of year. 
         </p>
         <br>
-        <p class="paragraph">
-          After organizing the dataset, Matplotlib was used to plot various
-          aspects of Weather vs. Latitude.  The four factors analyzed were:
-          Humidity, Maximum Temperature, Cloudiness and Wind Speed.  This 
-          site provides the source data and visualizations created, along
-          with a description of any trends or correlations.
-        </p>
-        </div>
-    </div>
-
-        <div class="row">
-          <div class="col-sm-4">
-            <h1 class="headers">
-                Visualizations
-            </h1>
-        
-        <a href="temp.html">
-        <img class=small_image_1 src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature">   
-        </a>
-        <a href="humid.html">
-        <img class=small_image_2 src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humdity">
-        </a>
-        <a href="cloud.html">
-        <img class=small_image_3 src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness">
-        </a>
-        <a href="wind.html">
-        <img class=small_image_4 src="Resources/assets/images/Fig4.png" alt="Latitude vs. Wind Speed">
-        </a>
-        </div>
-    </div>
-</div>
-   
 
 </body>
 
