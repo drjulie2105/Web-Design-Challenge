@@ -1,18 +1,11 @@
 
-h1 {
-    color: darkcyan;
+.headers {
+    margin-left: 25px;
+    margin-top: 25px;
+    color:darkcyan;
     font-family: "Arial", Arial, Helvetica, sans-serif;
     font-weight: bold;
-    margin-top: 20px;
 }
-
-h2 {
-    color: darkcyan;
-    font-family: "Arial", Arial, Helvetica, sans-serif;
-    margin-left: 100px;
-    margin-bottom: 0px;
-}
-
 
 .navbar-brand {
     font-size: 35px;
@@ -68,4 +61,9 @@ h2 {
 .compare_image {
     width: "25";
     height: "25";
+}
+
+.dataframe {
+    margin-left: 25px;
+    margin-top: 25px;
 }
