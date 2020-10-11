@@ -32,35 +32,34 @@
 }
 
 .small_image_1 {
-    width: "25";
-    height: "25";
+    width: 50px;
+    height: 50px;
     margin-top: 0px;
     margin-left:0px;
 }
 
 .small_image_2 {
-    width: "25";
-    height: "25";
+    width: 50px;
+    height: 50px;
     margin-top: 0px;
     margin-right: 0px;
 }
 .small_image_3 {
-    width: "25";
-    height: "25";
+    width: 50px;
+    height: 50px;
     margin-bottom: 0px;
     margin-left: 0px;
 }
 .small_image_4 {
-    width: "25";
-    height: "25";
+    width: 50px;
+    height: 50px;
     margin-bottom: 0px;
     margin-right: 0px;
 }
 
-
 .compare_image {
-    width: "25";
-    height: "25";
+    width: 500px;
+    height: 500px;
 }
 
 .dataframe {
