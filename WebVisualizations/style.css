@@ -25,36 +25,25 @@
     margin-left: 25px;
 }
 
-.main_img {
-    float: left;
-    width: "50";
-    height: "50"; 
-}
 
 .small_image_1 {
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-    margin-left:0px;
+    width: 400px;
+    height:400px;
 }
 
 .small_image_2 {
-    width: 50px;
-    height: 50px;
-    margin-top: 0px;
-    margin-right: 0px;
+    width: 400px;
+    height: 400px;
 }
 .small_image_3 {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    width: 400px;
+    height: 400px;
+
 }
 .small_image_4 {
-    width: 50px;
-    height: 50px;
-    margin-bottom: 0px;
-    margin-right: 0px;
+    width: 400px;
+    height: 400px;
+
 }
 
 .compare_image {
