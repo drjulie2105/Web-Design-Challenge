@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude vs. Humidity</title>
+  <title>Latitude vs. Max. Temperature</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
   
@@ -29,9 +29,9 @@
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-          <div class="dropdown-menu">
+          <div class="dropdown-menu show">
             <a class="dropdown-item" href="temp.html">Temperature</a>
-            <a class="dropdown-item" href="humid.html">Humdity</a>
+            <a class="dropdown-item" href="humid.html">Humidity</a>
             <a class="dropdown-item" href="wind.html">Wind Speed</a>
             <a class="dropdown-item" href="cloud.html">Cloudiness</a>
   
@@ -42,15 +42,18 @@
   
     
         <h1 class="headers"> 
-            Latitude vs. Humidity
+            Latitude vs. Temperature
         </h1>
-       
-        <img class=main_image src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity">
+        
+        <img class=main_image src="Resources/assets/images/Fig1.png" alt="Latitude vs. Max. Temperature">
             
         <p class="paragraph">
-          This graph is showing latitude vs. humidity.
-          There does not appear to be a significant correlation 
-          between latitude and humidity.
+          This graph displays a correlation between
+          temperature and latitude.  The temperature
+          increases the closer one gets to the equator
+          (which is zero degrees latitude).  Temperature
+          comparison between the northern vs. southern
+          hemisphere will depend on the given time of year. 
         </p>
         <br>
 
