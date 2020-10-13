@@ -1,0 +1,105 @@
+
+.headers {
+    margin-left: 25px;
+    margin-top: 25px;
+    color:darkcyan;
+    font-family: "Arial", Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+.nav-link {
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.paragraph {
+    font-size: 20px;
+    margin-right: 75px;
+    margin-left: 25px;
+}
+
+
+.small_image_1 {
+    width: 400px;
+    height:400px;
+}
+
+.small_image_2 {
+    width: 400px;
+    height: 400px;
+}
+.small_image_3 {
+    width: 400px;
+    height: 400px;
+
+}
+.small_image_4 {
+    width: 400px;
+    height: 400px;
+
+}
+
+.compare_image {
+    width: 500px;
+    height: 500px;
+}
+
+.dataframe {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+        .main_image {
+          width: 300px;
+          height: 300px;
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+        .small_image_1 {
+              width: 300px;
+              height: 300px;
+            }
+        }
+
+@media only screen and (max-width: 768px) {
+        .small_image_2 {
+                width: 300px;
+                height: 300px;
+                }
+            }
+
+@media only screen and (max-width: 768px) {
+        .small_image_3 {
+            width: 300px;
+            height: 300px;
+            }
+        }
+
+@media only screen and (max-width: 768px) {
+        .small_image_4 {
+            width: 300px;
+            height: 300px;
+            }
+        }
+
+@media only screen and (max-width: 768px) {
+        .compare_image {
+            width: 350px;
+            height: 350px;
+            }
+}
