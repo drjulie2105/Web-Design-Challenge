@@ -60,38 +60,46 @@
     [class*="col-"] {
       width: 100%;
     }
+}
 
 @media only screen and (max-width: 768px) {
         .main_image {
           width: 300px;
           height: 300px;
         }
+    }
 
 @media only screen and (max-width: 768px) {
         .small_image_1 {
               width: 300px;
               height: 300px;
             }
+        }
+
 @media only screen and (max-width: 768px) {
         .small_image_2 {
                 width: 300px;
                 height: 300px;
                 }
+            }
 
 @media only screen and (max-width: 768px) {
         .small_image_3 {
             width: 300px;
             height: 300px;
             }
+        }
 
 @media only screen and (max-width: 768px) {
         .small_image_4 {
             width: 300px;
             height: 300px;
             }
+        }
 
 @media only screen and (max-width: 768px) {
         .compare_image {
             width: 350px;
             height: 350px;
             }
+}
