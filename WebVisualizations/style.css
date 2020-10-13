@@ -55,3 +55,18 @@
     margin-left: 25px;
     margin-top: 25px;
 }
+
+.col- {
+
+}
+
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+
+@media only screen and (max-width: 768px) {
+        .main_image {
+          width: 400px;
+          height: 400px;
+        }
